@@ -36,7 +36,7 @@ int main()
     std::string raw;
     getline(std::cin, raw);
     int ingr = stoi(raw);
-    double res = ingr*r;
+    int res = ingr*r;
     std::cout << res << std::endl;
   }
 
